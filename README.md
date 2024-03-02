@@ -21,7 +21,7 @@ The Lambda function performs the following steps:
 
 This approach ensures that only EBS snapshots without any current dependencies are removed, preventing unintentional data loss. By regularly running this Lambda function, you can automate the process of identifying and cleaning up stale resources, contributing to a more cost-effective AWS infrastructure.
 
-we first crate a labda function
+we first create a lambda function
 
 ![Screenshot 2024-03-01 175322](https://github.com/jithinkumar900/Cloud-cost-optimization_Project/assets/59408287/7f258d90-e13f-4a05-a9e6-635baac4164e)
 
